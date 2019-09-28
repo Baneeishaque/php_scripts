@@ -12,7 +12,7 @@
       <paths name="makcollection.in">
         <serverdata>
           <mappings>
-            <mapping deploy="/scripts" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/scripts" local="$PROJECT_DIR$" web="/scripts" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
