@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="makcollection.in" deleteMissingItems="true" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="adgarage.co" deleteMissingItems="true" createEmptyFolders="true">
     <serverData>
       <paths name="adgarage.co">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/scripts" local="$PROJECT_DIR$" web="/scripts" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Dockerfile" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="makcollection.in">
