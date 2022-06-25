@@ -1,8 +1,13 @@
 <?php
 
-if (mysqli_connect("192.254.233.216", "hashf430_ndk", "9895204814")) {
-    echo 'success';
-    mysqli_select_db("hashf430_ndk");
+$mysqli_connection = mysqli_connect("127.0.0.1", "root", "1");
+if ($mysqli_connection) {
+    echo 'connection success';
+    if (mysqli_select_db($mysqli_connection, "information_schema")) {
+        echo '\n' . 'database selection success';
+    } else {
+        echo '\n' . 'database selection failure';
+    }
 } else {
-    echo 'failure';
+    echo 'connection failure';
 }
