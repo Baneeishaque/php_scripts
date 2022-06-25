@@ -1,7 +1,7 @@
 <?php
 
 # Use the Curl extension to query Google and get back a page of results
-$url = "http://www.google.com";
+$url = "https://www.google.com";
 $ch = curl_init();
 $timeout = 5;
 curl_setopt($ch, CURLOPT_URL, $url);
