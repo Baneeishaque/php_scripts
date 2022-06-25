@@ -20,7 +20,7 @@ foreach ($files as $file) {
 
     // Do something with the file here.   
 
-    // For now we'll echo the filenames in a list  
+    // For now, we'll echo the filenames in a list
     echo $file . "<br />";
 
 }  
