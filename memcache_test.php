@@ -11,4 +11,3 @@ $memcache = new Memcache;
  echo "Data from the cache:<br />\n";
  var_dump($memcache->get("key"));
 
-?>
