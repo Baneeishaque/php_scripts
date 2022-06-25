@@ -141,3 +141,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/linux,macos,windows,netbeans,phpstorm+all,jetbrains
 
 .idea/php.xml
+/.idea/dataSources.xml
