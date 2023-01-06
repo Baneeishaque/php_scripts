@@ -1,2 +1,2 @@
-FROM php:5.6.37-apache-stretch
+FROM php:5.6.40-apache-stretch
 COPY . /var/www/html/
